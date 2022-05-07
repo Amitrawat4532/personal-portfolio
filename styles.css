@@ -677,20 +677,19 @@ footer .footer .footer-bottom {
     }
 }  
 @media (max-width: 437px){
-    .details h1 {
-        font-size: 20px;
-        margin-top: 21%;
-    }
-    .images .boy {
-            height: 250px;
-            position: absolute;
-            margin-right: 27%;
-            bottom: 60px;
-            
+  .details h1 {
+    font-size: 33px;
+    margin-top: 21%;
+}
+.images .boy {
+    height: 300px;
+    position: absolute;
+    bottom: 69px;
+}
         }
     .details p {
-        font-size: 10px;
-        line-height: 15px;
+    font-size: 13px;
+    line-height: 22px;
       
         }
         
