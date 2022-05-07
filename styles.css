@@ -662,10 +662,11 @@ footer .footer .footer-bottom {
        
     }
     .images .boy {
-    height: 252px;
+    height: 449px;
     position: absolute;
-    margin-right: 16%;
-    bottom: 3px;
+    /* margin-right: 28%; */
+    /* bottom: 3px; */
+    left: 284px;
     }
 
     nav ul li {
