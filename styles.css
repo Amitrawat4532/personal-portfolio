@@ -683,9 +683,11 @@ footer .footer .footer-bottom {
     margin-top: 21%;
 }
 .images .boy {
-    height: 300px;
+   height: 449px;
     position: absolute;
-    bottom: 69px;
+    /* margin-right: 28%; */
+    /* bottom: 3px; */
+    left: 284px;
 }
         }
     .details p {
