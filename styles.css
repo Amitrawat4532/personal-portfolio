@@ -514,25 +514,7 @@ footer .footer .footer-bottom {
 /* 
 /* media query */
 
-@media (max-width: 1350px){
-    .images img {
-        height: 420px;
-        position: absolute;
-        left: 50%;
-        bottom: 80px;
-       
-    }
-}
 
-@media(max-width:1150px){
-    .images img {
-        height: 420px;
-        position: absolute;
-        left: 64%;
-        bottom: 120px;
-        
-    }
-}
 @media(max-width:1076px){
     .details p{
         color: rgb(253, 228, 228);
@@ -553,36 +535,6 @@ footer .footer .footer-bottom {
     left: 66%;
     bottom: 120px;
     
-    }
-
-}
-
-@media(max-width:942px){
-    .details p{
-        color: rgb(253, 228, 228);
-        line-height: 31px;
-        font-size: 12px;
-    }
-    .images img {
-        height: 359px;
-        position: absolute;
-        left: 74%;
-        bottom: 118px;
-    }
-
-}
-
-@media(max-width:854px){
-    .details p{
-        color: rgb(253, 228, 228);
-        line-height: 36px;
-        font-size: 11px;
-    }
-    .images img {
-        height: 317px;
-        position: absolute;
-        left: 81%;
-        bottom: 106px;
     }
 
 }
@@ -617,50 +569,6 @@ footer .footer .footer-bottom {
 }
 
 }
-@media (max-width: 698px)
-{
-    nav ul li {
-        display: block;
-    }
-    .details {
-        margin-top: 10%;
-
-    }
-    .details h1 {
-        font-size: 30px;
-        margin-top: 21%;
-    }
-    .images .boy {
-            height: 317px;
-            position: absolute;
-            margin-right: 27%;
-            bottom: 32px;
-        }
-    .details p {
-        font-size: 12px ;
-      
-        }
-.container2 {
-    max-width: 508px;
-    margin: 0px 39px;
-    padding: 7px 9px;
-    border-radius: 30px;
-    }
-
-}
-
-@media (max-width: 555px)
-{
-    .details {
-        margin-top: 30%;
-
-    }
-    .container2 {
-        max-width: 461px;
-        margin: 0px 39px;
-        padding: 7px 9px;
-       
-    }
     .images .boy {
     height: 400px;
     position: absolute;
@@ -677,23 +585,4 @@ footer .footer .footer-bottom {
         font-size: 20px;
     }
 }  
-@media (max-width: 437px){
-  .details h1 {
-    font-size: 33px;
-    margin-top: 21%;
-}
-.images .boy {
-   height: 449px;
-    position: absolute;
-    /* margin-right: 28%; */
-    /* bottom: 3px; */
-    left: 284px;
-}
-        }
-    .details p {
-    font-size: 13px;
-    line-height: 22px;
-      
-        }
-        
-}
+
