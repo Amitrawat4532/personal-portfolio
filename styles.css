@@ -567,16 +567,7 @@ footer .footer .footer-bottom {
     .details h1 {
         font-size: 30px;
 }
-
-}
-    .images .boy {
-    height: 400px;
-    position: absolute;
-    /* margin-right: 28%; */
-    /* bottom: 3px; */
-    left: 284px;
-    }
-
+@media (max-width: 720px)
     nav ul li {
         display: block;
         font-size: 20px;
