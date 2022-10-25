@@ -8,13 +8,13 @@
 html{
     scroll-behavior: smooth;
 }
-.hero{
+ .hero{
     position: relative;
     width: 100%;
     height: 94vh;
     background: url('images/4.jpg');
     position: relative;
-    repeat: no repeat;
+    
 }
 .social-icon p1{
     font-size: 25px;
@@ -131,16 +131,20 @@ span{
 }
 
 
-
+.about{
+   display: flex;   
+   justify-content: center;
+}
 .about-me{
-    background: black; /*url('images/6.jpg'); */
+    background: url(images/2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     position: relative;
     margin-top: 3px;
     margin-bottom: 3px;
-    height: 650px;
+   
+    border: 2px solid white;
     
 }
 .about-me h1{
@@ -168,11 +172,13 @@ span{
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
-
-.container2{
-    position: relative;
-    max-width: 750px;
+.skillcontainer{
+    background: #000;
+}
+ .container2{
    
+    max-width: 750px;
+    
     background: transparent;
     margin: 0 227px;
     padding: 10px 20px;
@@ -261,11 +267,11 @@ span{
 
 /* **************************************************************life css start*********************** */
 .life-history {
-    background: url(images/2.jpg);
+    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    position: relative;
+    margin: auto;
 }
 
 .life-history::before {
@@ -280,7 +286,7 @@ span{
 }
 
 .life-history h2 {
-    color: rgb(248, 188, 61);
+    color: rgb(255, 179, 14);
     font-weight: 600;
     font-weight: 2.5rem;
     position: relative;
@@ -454,10 +460,9 @@ span{
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
-/* *************************************end css top button************** */
 
 
-/* footer start */
+
 footer {
     background-color: rgb(0, 0, 0);
 }
@@ -510,9 +515,7 @@ footer .footer .footer-bottom {
     font-size: 1rem;
     bottom: 0px;
 }
-/* footer end */
-/* 
-/* media query */
+
 
 
 @media(max-width:1076px){
@@ -567,7 +570,7 @@ footer .footer .footer-bottom {
     .details h1 {
         font-size: 30px;
 }
-@media (max-width: 720px)
+@media (max-width: 720px){
     nav ul li {
         display: block;
         font-size: 20px;
@@ -575,5 +578,5 @@ footer .footer .footer-bottom {
     .social-icon p1 {
         font-size: 20px;
     }
-}  
+}   
 
